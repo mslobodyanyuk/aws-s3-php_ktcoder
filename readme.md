@@ -77,24 +77,24 @@ Upload image using form submission to AWS S3 with PHP -
 
 [(1:20)]( https://youtu.be/aPBFqDIIPYE?t=80 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/1.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/1.png )
 
 Open AWS S3 File Privately with PHP - 
 <https://gist.github.com/keithweaver/87c5af35f70aac32b4e621fc9fa3b568>
 
 [(2:40)]( https://youtu.be/aPBFqDIIPYE?t=160 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/2.png ) `Create Bucket.`
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/2.png ) `Create Bucket.`
 
 [(2:58)]( https://youtu.be/aPBFqDIIPYE?t=178 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/3.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/3.png )
 
 [(3:09)]( https://youtu.be/aPBFqDIIPYE?t=189 ) `IAM`.
 
 [(3:32)]( https://youtu.be/aPBFqDIIPYE?t=212 ) `IAM-> Users-> Add User`. 
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/4.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/4.png )
 
 `Next...`
 
@@ -112,7 +112,7 @@ examplephp-endtoend-user
 
 [(4:03)]( https://youtu.be/aPBFqDIIPYE?t=243 ) `Create User`. `Access key ID`, `Secret access key`. After leaving this window, the `Secret access key` is no longer shown in the system. 
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/5.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/5.png )
 
 - Access key ID
 												
@@ -127,14 +127,14 @@ AWS_SECRET=
 
 [(4:26)]( https://youtu.be/aPBFqDIIPYE?t=266 ) - Take the user ID, `User ARN`, Amazon Resource Name (ARN) and the `Bucket ARN`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/6.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/6.png )
 
 - User ARN
 
 - Bucket ARN
 						
 [(4:46)]( https://youtu.be/aPBFqDIIPYE?t=286 )
-_ "Set your `Bucket Policy` to be the same as below. Change `arn:aws:iam::281979644754:user/sample-user` to be your `User ARN`. Also change `arn:aws:s3:::img-bucket-00123` to your `Bucket ARN`. The bucket `ARN` is above the textarea."_
+_"Set your `Bucket Policy` to be the same as below. Change `arn:aws:iam::281979644754:user/sample-user` to be your `User ARN`. Also change `arn:aws:s3:::img-bucket-00123` to your `Bucket ARN`. The bucket `ARN` is above the textarea."_
 
 <https://github.com/keithweaver/python-aws-s3>
 
@@ -166,11 +166,11 @@ _ "Set your `Bucket Policy` to be the same as below. Change `arn:aws:iam::281979
 
 [(5:13)]( https://youtu.be/aPBFqDIIPYE?t=313 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/7.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/7.png )
 
 [(5:30)]( https://youtu.be/aPBFqDIIPYE?t=330 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/8.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/8.png )
 
 _"Click CORS configuration and add the following policy:"_
 
@@ -236,7 +236,7 @@ _"Reopen the IAM dashboard"._
 _"Click on the New inline policy"_
 
 [(6:04)]( https://youtu.be/aPBFqDIIPYE?t=364 )
-_ "Update the policy to be as follows:"_
+_"Update the policy to be as follows:"_
 
 ```
 {
@@ -259,17 +259,17 @@ _ "Update the policy to be as follows:"_
 
 [(6:13)]( https://youtu.be/aPBFqDIIPYE?t=373 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/9.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/9.png )
 
 [(6:21)]( https://youtu.be/aPBFqDIIPYE?t=381 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/10.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/10.png )
 
 [(7:38)]( https://youtu.be/aPBFqDIIPYE?t=458 ) `index.php`
 
 [(7:50)]( https://youtu.be/aPBFqDIIPYE?t=470 ) `Hello world!!!;)`
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/1.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/1.png )
 
 [(8:15)]( https://youtu.be/aPBFqDIIPYE?t=495 )
 
@@ -325,17 +325,17 @@ $pathInS3 = 'https://s3.eu-north-1.amazonaws.com/' . $bucketName . '/' . $keyNam
 
 [(11:10)]( https://youtu.be/aPBFqDIIPYE?t=670 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/2.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/2.png )
 
 [(11:40)]( https://youtu.be/aPBFqDIIPYE?t=700 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/3.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/3.png )
 
 [(11:46)]( https://youtu.be/aPBFqDIIPYE?t=706 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/11.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/11.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/12.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/12.png )
 
 [(12:00)]( https://youtu.be/aPBFqDIIPYE?t=720 ) `Edit`:
 
@@ -347,27 +347,27 @@ $keyName = 'test_example/' . basename($_FILES["fileToUpload"]['name']);
 
 [(12:45)]( https://youtu.be/aPBFqDIIPYE?t=765 ) `Upload again`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/4.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/4.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/3.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/3.png )
 
 [(13:15)]( https://youtu.be/aPBFqDIIPYE?t=795 ) `Download. Open`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/13.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/13.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/14.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/14.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/15.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/15.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/16.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/16.png )
 
 [(13:40)]( https://youtu.be/aPBFqDIIPYE?t=820 ) `Access Denied`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/5.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/5.png )
 
 [(15:25)]( https://youtu.be/aPBFqDIIPYE?t=925 ) `phpMyAdmin. s3DB database, s3Files table`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/6.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/6.png )
 
 [(17:30)]( https://youtu.be/aPBFqDIIPYE?t=1050 ) `Save file to files table`...
 
@@ -385,17 +385,17 @@ mysqli_query($con, "INSERT INTO s3Files (s3FilePath, accessCode) VALUES ('$keyNa
 
 [(17:58)]( https://youtu.be/aPBFqDIIPYE?t=1078 ) `Upload`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/7.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/7.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/3.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/3.png )
 
 [(18:23)]( https://youtu.be/aPBFqDIIPYE?t=1103 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/aws/17.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/aws/17.png )
 
 [(18:28)]( https://youtu.be/aPBFqDIIPYE?t=1108 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/8.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/8.png )
 
 [(18:49)]( https://youtu.be/aPBFqDIIPYE?t=1129 ) `get.php`: `Copy` & `Paste`.
 
@@ -421,7 +421,7 @@ $result = mysqli_query($con, "SELECT * FROM s3Files WHERE accessCode='$accessCod
 
 [(20:55)]( https://youtu.be/aPBFqDIIPYE?t=1255 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/9.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/9.png )
 
 [(21:50)]( https://youtu.be/aPBFqDIIPYE?t=1310 )
 
@@ -431,14 +431,14 @@ $result = mysqli_query($con, "SELECT * FROM s3Files WHERE accessCode='$accessCod
 
 [(22:45)]( https://youtu.be/aPBFqDIIPYE?t=1365 ) `Reload Page`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/10.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/10.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/11.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/11.png )
 
 [(22:56)]( https://youtu.be/aPBFqDIIPYE?t=1376 )
 _` .../get.php?c=123456`_
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/master/public/images/firefox/12.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/12.png )
 
 #### Useful links:
 
