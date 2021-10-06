@@ -423,8 +423,6 @@ $result = mysqli_query($con, "SELECT * FROM s3Files WHERE accessCode='$accessCod
 
 ![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_ktcoder/blob/main/public/images/firefox/9.png )
 
-[(21:50)]( https://youtu.be/aPBFqDIIPYE?t=1310 )
-
 [(22:10)]( https://youtu.be/aPBFqDIIPYE?t=1330 )
 
 <https://stackoverflow.com/questions/3102226/how-to-set-name-of-file-downloaded-from-browser>
