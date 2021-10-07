@@ -21,8 +21,8 @@
 
 	// AWS Info
 	$bucketName = 'examplephp-endtoend';
-	$IAM_KEY = 'AKIAXTNTGNKL7WVXYVNL';
-	$IAM_SECRET = 'r5s9PIN66dltyYVD6qjt/cXBMf6W/hOAz3OWC/vI';
+	$IAM_KEY = '';
+	$IAM_SECRET = '';
 
 	// Connect to AWS
 	try {
